@@ -1,0 +1,132 @@
+.body {
+    background: #f7f9f9;
+}
+
+.foto {
+    margin-top: 150px;
+    margin-left: 120px;
+    width: 75%;
+}
+
+.titleup {
+    font-size: 75px;
+    margin-left: 120px;
+    margin-top: 250px;
+    width: 80%;
+    font-weight: bold;
+}
+
+.button1 {
+    background-color: #c36004;
+    margin-left: 120px;
+    color: #f7f9f9;
+    margin-top: 150px;
+    width: 78%;
+    height: 200px;
+    cursor: pointer;
+    border: 0cm;
+    border-radius: 12px;
+    font-size: 75px;
+    text-align:center;
+    font-weight: bold;
+}
+
+.button2 {
+    background-color: #0F7173 ;
+    color: #f7f9f9;
+    display: block;
+    margin-right: 50px;
+    margin-left: 120px;
+    margin-top: 200px;
+    width: 78%;
+    height: 200px;
+    font-size: 75px;
+    font-weight: bold;
+    border: 0cm;
+    border-radius: 12px;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.version {
+    margin-top: 300px;
+    margin-left: 800px;
+}
+
+.itemlabel {
+    font-size: 35px;
+    margin-left: 150px;
+    margin-top: 100px;
+    width: 80%;
+    
+}
+
+.itemlabel1 {
+    font-size: 35px;
+    margin-left: 150px;
+    width: 80%;
+    
+}
+
+.ammount {
+    margin-left: 150px;
+    font-size: 75px;
+    font-weight: bold;
+}
+
+.ammountbox {
+    margin-top: 10px;
+    width: 78%;
+    height: 200px;
+    font-weight: bold;
+    font-size: 100px;
+    text-align: center;
+    border: solid black;
+    border-radius: 12px;
+}
+
+.inputammount {
+    width: 80%;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+
+.labelammount {
+    font-size: 35px;
+    width: 80%;
+}
+
+.flashmessage {
+    font-size: 35px;
+    margin-left: 150px;
+}
+
+.flashlabel {
+    margin-top: 50px;
+}
+
+.button3 {
+    background-color: #c36004;
+    color: #f7f9f9;
+    border: 0cm;
+    margin-top: 200px;
+    margin-left: 100px;
+    width: 40%;
+    height: 300px;
+    font-weight: bold;
+    font-size: 100px;
+    border-radius: 12px;
+}
+
+.button4 {
+    background-color: #06BA63;
+    color: #f7f9f9;
+    border: 0cm;
+    width: 40%;
+    height: 300px;
+    font-weight: bold;
+    font-size: 100px;
+    border-radius: 12px;
+}

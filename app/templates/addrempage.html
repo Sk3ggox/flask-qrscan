@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Our Funky HTML Page</title>
+        <meta name="description" content="Our first page">
+        <meta name="keywords" content="html tutorial template">
+        <link rel="stylesheet" href="\static\stylesheet.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    </head>
+    <body>
+        <img class="foto" src="\static\Logo.png" alt="logo">
+        <p class="itemlabel">Item: <br></p> 
+        <p class="ammount">{{ data }}</p>
+        <p class="itemlabel1">Current amount:<br></p>
+        <p class="ammount"> {{ amount }}</p>
+        <label class="flashlabel">
+        {% with messages = get_flashed_messages() %}
+            {% if messages %}
+                    {% for message in messages %}
+                        <a class="flashmessage">{{ message }}</a>
+                    {% endfor %}
+            {% endif %}
+        {% endwith %}
+        </label>
+        <form method="post" action="">
+            {{ addremform.csrf_token }}
+            {{ addremform.oem(value=data) }}
+            <label class="inputammount">
+                <a class="labelammount">Amount:</a><br>
+                {{ addremform.amount(class_="ammountbox") }}
+            </label>
+            {{ addremform.addsubmit(class_="button3") }}
+            {{ addremform.remsubmit(class_="button4") }}
+        </form>
+    </body>
+    <footer>
+        <div class="version">Version 0.1</div>
+    </footer>
+</html>
